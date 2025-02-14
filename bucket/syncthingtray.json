@@ -32,6 +32,7 @@
         "move-item \"$dir\\syncthingtray.ini\" \"$persist_dir\""
     ],
     "bin": "syncthingtray-cli.exe",
+    "persist": ["config", "data"],
     "shortcuts": [
         [
             "syncthingtray.exe",
